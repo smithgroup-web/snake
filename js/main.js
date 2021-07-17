@@ -95,4 +95,4 @@ function drawGame() {
     snake.unshift(newHead); 
 }
 // Обновляем каждые 100 миллисекунд
-let game = setInterval(drawGame, 100);
+let game = setInterval(drawGame, 200);
